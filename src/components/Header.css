@@ -1,0 +1,10 @@
+main, .conteudo {
+  margin-left: 6rem;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+header.w-48 ~ main,
+header.w-48 ~ .conteudo {
+  margin-left: 12rem;
+}
